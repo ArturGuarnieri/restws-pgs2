@@ -1,0 +1,37 @@
+GET http://localhost:8080/fci/api/vagas
+###
+
+POST http://localhost:8080/fci/api/vagas
+Content-Type: application/json
+
+{
+    "ativo": true,
+    "descricao": "Atuacao em projetos backend com Java e Spring. Experiencia desejada em APIs REST.",
+    "idEmpresa": 1,
+    "publicacao": "15-04-2026",
+    "titulo": "Desenvolvedor Java2"
+}
+###
+
+POST http://localhost:8080/fci/api/vagas
+Content-Type: application/json
+
+{
+    "ativo": true,
+    "descricao": "Atuacao em projetos frontend com React. Experiencia desejada em interfaces web.",
+    "idEmpresa": 1,
+    "publicacao": "20-04-2026",
+    "titulo": "Desenvolvedor Frontend"
+}
+###
+
+POST http://localhost:8080/fci/api/vagas
+Content-Type: application/json
+
+{
+    "ativo": true,
+    "descricao": "Atuacao em projetos de dados com Python. Experiencia desejada em analise de dados e machine learning.",
+    "idEmpresa": 1,
+    "publicacao": "25-04-2026",
+    "titulo": "Cientista de Dados"
+}

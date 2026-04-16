@@ -1,0 +1,31 @@
+GET http://localhost:8080/fci/api/empresas
+###
+
+POST http://localhost:8080/fci/api/empresas
+Content-Type: application/json
+
+{
+    "nome": "Empresa Teste",
+    "cnpj": "12345678901234",
+    "email": "empresa@teste.com"
+}
+###
+
+POST http://localhost:8080/fci/api/empresas
+Content-Type: application/json
+
+{
+    "nome": "Tech Solutions",
+    "cnpj": "98765432101234",
+    "email": "contato@techsolutions.com"
+}
+###
+
+POST http://localhost:8080/fci/api/empresas
+Content-Type: application/json
+
+{
+    "nome": "Inovatech",
+    "cnpj": "56789012345678",
+    "email": "inovatech@gmail.com"
+}

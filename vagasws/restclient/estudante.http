@@ -1,0 +1,34 @@
+GET http://localhost:8080/fci/api/estudantes
+###
+
+POST http://localhost:8080/fci/api/estudantes
+Content-Type: application/json
+
+{
+    "nome": "Estudante Teste",
+    "email": "estudante@teste.com",
+    "anoIngresso": 2020,
+    "nascimento": "01-01-2000"
+}
+###
+
+POST http://localhost:8080/fci/api/estudantes
+Content-Type: application/json
+
+{
+    "nome": "Joao Silva",
+    "email": "joao.silva@teste.com",
+    "anoIngresso": 2026,
+    "nascimento": "01-01-2020"
+}
+###
+
+POST http://localhost:8080/fci/api/estudantes
+Content-Type: application/json
+
+{
+    "nome": "Andre Pereira",
+    "email": "andre.pereira@teste.com",
+    "anoIngresso": 2026,
+    "nascimento": "01-01-1990"
+}
